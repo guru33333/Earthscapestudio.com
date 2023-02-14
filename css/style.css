@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600&family=Roboto&display=swap');
+@font-face{
+	font-family:'bold';
+	src:url('font/bold.ttf') format('truetype');
+	font-style:normal;
+	font-weight:normal;}
+@font-face{
+	font-family:'regular';
+	src:url('font/regular.ttf') format('truetype');
+	font-style:normal;
+	font-weight:normal;}
+html{scroll-behavior: smooth;}
+li{list-style-type:none!important;}
+a{text-decoration:none!important;}
+.heading1{font-size: 2.5rem;} .heading2{font-size: 2rem;} .heading3{font-size: 1.75rem;} .heading4{font-size: 1.5rem;} .heading5{font-size: 1.25rem;} .heading6{font-size: 1rem;}
+.pad{padding:90px 0;}
+.smallfnt{font-size: 14px;}
+.smallfnt1{font-size: 12px;}
+.logo{font-size: 30px;}
+.fw-400{font-weight: 400;}
+.fw-500{font-weight: 500;}
+.fw-600{font-weight: 600;}
+.para-clr{color:#6c6c6c;}
+.fira{font-family:'bold';}
+.roboto{font-family:'regular'; line-height: 28px;;}
+.bold{font-family:'bold';}
+.navbg{background: #696969b5;}
+.black{color:#000!important;}
+.navfont{font-family:'bold'; font-size: 16px; letter-spacing: 1px;}
+.navbar-light .navbar-toggler {border-color: white!important;}
+.mynav{position:absolute!important; width:100%; z-index:999;}
+.dropdown-item:active{color: white!important; text-decoration: none; background-color: #6a6a6a !important;}
+.dropdown-item:focus, .dropdown-item:hover {color: #fff!important; text-decoration: none; background-color: #6a6a6a!important;}
+.dropdown-item{padding: 8px 25px!important;}
+.navbar button {background-color:white;}
+.navbar-toggler .navbar-toggler-icon {background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")!important;}
+.signin_button{background-color: #2B2D35; color: white!important; padding: 5px 12px; border-radius: 5px; font-size: 16px;}
+.fullpad{padding:0!important; margin:0!important;}
+.nav-straight li {display: inline-block; margin-right: 15px;}
+.homebg{background-image: url("../images/haven.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-position: center;
+	height: 815px;
+	margin-top: -125px;}
+.bannerpad{padding-top: 350px;}
+.banner-fnt{font-size: 35px; letter-spacing: 2px;}
+.black-bg{background-color: #000;}	
+.footer-bg{background-color: #2A2B32;}
+.footer-bar1 {
+	background-color: #2A2B32;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 9999;}	
+.box-bg {position: relative; z-index: 1;}
+.button-black{background-color: #000; color:#fff; padding:5px 15px; font-size: 16px; border-radius:5px;}
+.big-fnt{font-size: 50px;}
+.foot-menu li {font-size: 16px; padding-bottom: 10px;}
+.foot-social li, .footbottom li {display: inline-block; margin-right: 10px;}
+.social {width: 30px; height: 30px;}
+.sticky-top1{position: sticky; top: 150px;}
+.product_para {max-width: 390px;margin: 0;}
+.owl-nav{display:none;}
+.owl-dots{margin-top:20px;}
+.contact-pad{padding:300px 0 30px;}
+.about-img{width:300px;}
+.sec-height{height:300px;}
+.foot-wdth{max-width: 230px; margin: 0;}
+
+
+@media (min-width:5px) and (max-width:767.98px){
+.pad{padding:40px 0;}
+.homebg{height: 550px; margin-top: 0;}
+.black-box{right: 0; padding: 20px 20px;}
+.logo{font-size: 25px;}
+.contact-pad{padding:50px 0}
+.big-fnt{font-size: 35px;}
+.contact-pad{padding:300px 0 20px;}
+}
+
+
+
+@media (min-width:768px) and (max-width:992.98px){
+.pad{padding:40px 0;}
+}
+
+#notfound {position: relative; height: 100vh;}
+#notfound .notfound {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);}
+.notfound {max-width: 410px; width: 100%; text-align: center;}
+.oopslogo{width:350px;}
+.notfound h2 {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;}
+.notfound p {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 15px;
+	margin-top: 5px;}
+.notfound a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #0046d5;
+	display: inline-block;
+	padding: 15px 30px;
+	border-radius: 40px;
+	color: #fff;
+	font-weight: 700;
+	-webkit-box-shadow: 0px 4px 15px -5px #0046d5;
+	box-shadow: 0px 4px 15px -5px #0046d5;}
+
+@media only screen and (max-width: 767px) {
+.notfound .notfound-404 {height: 142px;}
+.notfound .notfound-404 h1 {font-size: 112px;}
+}
+
